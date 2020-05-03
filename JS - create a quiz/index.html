@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Glorious Javascript Quiz</h1>
+            <div class="question">
+                <h5>Question #1</h5>
+                <h2>hat does this math equation equal?</h2>
+                <pre>3 + 8</pre>
+                <p><b>The answer was: 11</b></p>
+                <p>Are you in math -4?</p>
+                <section>
+                    <label class="answer"><input type="radio" name="1"><span>11</span></label>
+                    <label><input type="radio" name="1"><span>92</span></label>
+                    <label><input type="radio" name="1"><span>42</span></label>
+                    <label><input type="radio" name="1"><span>22</span></label>
+                </section>
+            </div>
+            <div class="question">
+                <h5>Question #2</h5>
+                <h2>What does the following equal?</h2>
+                <pre>39 + "10"</pre>
+                <p><b>The answer was: "49"</b></p>
+                <p>Literally add the numbers together.</p>
+                <section>
+                    <label><input type="radio" name="2"><span>20</span></label>
+                    <label><input type="radio" name="2"><span>81</span></label>
+                    <label><input type="radio" name="2"><span>29</span></label>
+                    <label class="answer"><input type="radio" name="2"><span>49</span></label>
+                </section>
+            </div>
+            <div class="question">
+                <h5>Question #3</h5>
+                <h2>Is it true or false that mr bacques is a good teacher?</h2>
+                <pre> He does give us a lot of work</pre>
+                <p><b>The answer was: true</b></p>
+                <p>We still love him</p>
+                <section>
+                    <label class="answer"><input type="radio" name="3"><span>true</span></label>
+                    <label><input type="radio" name="3"><span>false</span></label>
+                </section>
+            </div>
+            <div class="question">
+                <h5>Question #4</h5>
+                <h2>Answer the math question</h2>
+                <pre>5 + 7 = 13</pre>
+                <p><b>The answer was: "false"</b></p>
+                <p>Dude this was a simple question how do you mess up so bad.</p>
+                <section>
+                    <label><input type="radio" name="4"><span>true</span></label>
+                    <label class="answer"><input type="radio" name="4"><span>false</span></label>
+                </section>
+            </div>
+            <button onclick="mark()">Mark Quiz</button>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
